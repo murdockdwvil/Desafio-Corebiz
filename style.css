@@ -1,0 +1,396 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    position: absolute;
+    width: 1900px;
+    margin: 0 auto;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.logo {
+    position: absolute;
+    right: 1408px;
+    top: 16px;
+
+}
+
+.barradepesquisa {
+    position: absolute;
+    width: 716px;
+    height: 25px;
+    left: 643px;
+    top: 31px;
+    border-style: none;
+    border-bottom: #7a7a7a;
+    border-radius: 0px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #7a7a7a;
+
+}
+
+.linha {
+    position: absolute;
+    width: 718px;
+    height: 0px;
+    left: 643px;
+    top: 51px;
+    border: 1px solid #7a7a7a;
+}
+
+.lupa {
+    position: absolute;
+    left: 1343px;
+    right: 559px;
+    top: 35px;
+    bottom: 0%;
+}
+
+.cabeca {
+    position: absolute;
+    left: 1408px;
+    right: 499px;
+    top: 31px;
+    bottom: 51.83%;
+}
+
+.corpo {
+    position: absolute;
+    left: 1405px;
+    right: 499px;
+    top: 39px;
+}
+
+.minhaconta {
+    position: absolute;
+    width: 74px;
+    height: 18px;
+    left: 1427px;
+    top: 33px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #7A7A7A;
+    text-decoration: none;
+}
+
+.carrinho {
+    position: relative;
+    left: 1525px;
+    top: 30px;
+}
+
+.imagenscapa {
+    position: absolute;
+    width: 989px;
+    height: 430px;
+    left: 930px;
+    top: 81px;
+    background: #FFFFFF;
+}
+
+.vector {
+    position: absolute;
+    width: 1000.33px;
+    height: 430px;
+    left: 0px;
+    top: 81px;
+}
+
+.textobanner {
+    position: relative;
+    width: 522px;
+    height: 147px;
+    left: 380px;
+    top: 235px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.textobanner2 {
+    position: relative;
+    top: 250px; 
+    left: 390px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.maisvendidos {
+    position: absolute;
+    width: 138px;
+    height: 28px;
+    left: 380px;
+    top: 536px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 950;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.linha2 {
+    position: absolute;
+    width: 75px;
+    height: 0px;
+    left: 380px;
+    top: 560px;
+    border: 4px solid #C0C0C0;
+}
+
+.produtos li {
+    position: relative;
+    width: 15%;
+    height: 500px;
+    left: 380px;
+    top: 590px;
+    display: inline-block;
+    text-align: center;
+    }
+
+
+
+.nome-produtos {
+    height: 53px;
+    font-weight: 600;
+    font-size: 12px;
+    top: 800px;
+}
+
+.produto-desconto {
+    font-size: 12px;
+    line-height: 16px;
+    height: 14px;
+    text-decoration-line: line-through;
+    text-decoration-color: #7a7a7a;
+}
+
+.produto-preço {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.produto-parcelamento {
+    height: 12px;
+    font-size: 11px;
+    color: #7A7A7A;
+    top: 896px;
+}
+
+.comprar {
+    color: #FFFFFF;
+    font-family: 'Nunito';
+    font-weight: bold;
+    position: absolute;
+    width: 125.28px;
+    height: 32.42px;
+    left: 460px;
+    top: 1001.17px;
+    background: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.retangulo {
+    position: relative;
+    width: 1920px;
+    height: 160px;
+    top: 500px;
+    left: 0px;
+    bottom: 222px;
+    background: #F2F2F2;
+    margin: 0 auto;
+    }
+
+.texto-promoçoes {
+    top: 355px;
+    left: 696px;
+    position: relative;
+    width: 531px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    border: #7a7a7a;
+}
+
+.promoçao1 {
+    position:relative;
+    top: 360px;
+    left: 260px;
+}
+
+.promoçao2 {
+    position: relative;
+    top: 360px;
+    left: 245px;
+}
+
+
+.input-padrao {
+    position: relative;
+    top: 380px;
+    left: 602px;
+    width: 280px;
+    height: 48px;
+    border-radius: 5px;
+    border-style: none;
+    background: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Nunito';
+    font-weight: bold;
+    line-height: 14px;
+}
+
+.euquero {
+    position: relative;
+    top: 380px;
+    left: 608px;
+    right: 602px;
+    width: 140px;
+    border-radius: 5px;
+    border-style: none;
+    background: #000000;
+    font-size: 12px;
+    font-family: 'Nunito';
+    font-weight: bold;
+    line-height: 48px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+.backgroundfooter {
+    position: relative;
+    top: 420px;
+    margin: 0 auto;
+}
+
+.localizaçao {
+    position: relative;
+    top: 220px;
+    width: 109.3px;
+    height: 30.68px;
+    left: 425px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.linha3 {
+    position: relative;
+    top: 130px;
+    left: 425px;
+
+}
+
+.endereço-local {
+    position: relative;
+    width: 238px;
+    display: inline-block;
+    left: 380px;
+    top: 240px;
+    color: #FFFFFF;
+    line-height: 40px;
+    font-size: 13px;
+}
+
+.carta {
+    z-index: 10;
+    position: relative;
+    top: 152px;
+    left: 635px;
+}
+
+.botao-contato {
+    position: relative;
+    width: 195px;
+    height: 38px;
+    left: 602px;
+    top: 150px ;
+    border-radius: 5px;
+    border-style: none;
+    color: #000000;
+    background: #F2F2F2;
+    font-family: 'Nunito';
+    font-weight: bold;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.botao-consultor {
+    position: relative;
+    width: 195px;
+    height: 38px;
+    left: 403px;
+    top: 200px ;
+    border-radius: 5px;
+    border-style: none;
+    color: #000000;
+    background: #F2F2F2;
+    font-family: 'Nunito';
+    font-size: 13px;
+    line-height: 12px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.creditos {
+    position: relative;
+    font-size: 25px;
+    color: #F2F2F2;
+    top: 160px;
+    left: 631px;
+    font-size: 10.6px;
+    font-family:'Nunito';
+}
+
+.logo-footer {
+    position: relative;
+    top: 185px;
+    left: 575px;
+}
+
+.creditos2 {
+    position: relative;
+    font-size: 25px;
+    left: 1425px;
+    top: 135px;
+    color: #F2F2F2;
+    font-size: 10.6px;
+    font-family:'Nunito';
+    }
+
+.vtex-footer {
+    position:relative;
+    width: 52px;
+    top: 147px;
+    left: 1425px;
+}
+
+@media screen and (max-width: 480px){
+
+.banner, .header {
+    width: auto;
+}
+
+}
